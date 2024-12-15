@@ -1,3 +1,4 @@
+// Time : O(2n)        Space : O(1)
 function minimumBribes(q: number[]): void {
     let bribeCounter = 0;
     for (let i = q.length - 1; i >= 0; i--) {
