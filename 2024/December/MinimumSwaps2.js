@@ -1,3 +1,5 @@
+// Time : O(n)        Space : O(1)
+// Despite nested loops, we will only ever travers the entire array once
 function minimumSwaps(arr) {
     let swaps = 0;
     for(let i = 0; i < arr.length; ++i) {
