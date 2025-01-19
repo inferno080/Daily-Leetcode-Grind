@@ -4,7 +4,7 @@
  *     ...
  * };
  */
-
+// API Calls : O(log n)
 var solution = function(isBadVersion: any) {
 
     return function(n: number): number {
