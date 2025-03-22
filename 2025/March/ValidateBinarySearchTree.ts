@@ -13,7 +13,6 @@ function isValidBST(root: TreeNode | null): boolean {
         } else if (!root.right && (root.left && root.left.val < root.val &&  root.left.val  > low)) {
             return isValidInRange(low, root.val, root.left);
         } else {
-            console.log(low, high, root.val)
             return false;
         }
     }
