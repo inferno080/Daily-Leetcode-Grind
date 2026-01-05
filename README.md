@@ -7,6 +7,7 @@
 5. [Blind 75](https://neetcode.io/practice)
 6. [Neetcode 150](https://neetcode.io/practice)
 7. [www.greatfrontend.com](https://www.greatfrontend.com/questions)
+8. [leetcode.com/problemset/javascript/](https://leetcode.com/problemset/javascript/)
 
 ## Tracker
 https://docs.google.com/spreadsheets/d/1iEqUdhVTgbk3JUA12qvwK0WgXqR_ysrXeEz1-mIUZYA/edit?usp=sharing
