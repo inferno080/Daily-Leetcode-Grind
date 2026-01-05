@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+}
+
+.inputfield {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
