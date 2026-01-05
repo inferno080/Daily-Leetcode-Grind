@@ -6,6 +6,7 @@
 4. [Grind 75](https://www.techinterviewhandbook.org/grind75/)
 5. [Blind 75](https://neetcode.io/practice)
 6. [Neetcode 150](https://neetcode.io/practice)
+7. [www.greatfrontend.com)(https://www.greatfrontend.com/questions)
 
 ## Tracker
 https://docs.google.com/spreadsheets/d/1iEqUdhVTgbk3JUA12qvwK0WgXqR_ysrXeEz1-mIUZYA/edit?usp=sharing
