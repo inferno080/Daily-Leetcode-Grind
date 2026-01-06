@@ -1,3 +1,4 @@
+// Time - O(n) and Space: O(n)
 function twoSum(nums: number[], target: number): number[] {
     let hashMap = new Map<number, number>();
     for(let [idx, num] of nums.entries()) {
