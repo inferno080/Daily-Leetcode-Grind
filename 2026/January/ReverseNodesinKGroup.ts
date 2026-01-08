@@ -1,6 +1,6 @@
 // Time: O(n), Space: O(1) - OPTIMAL
 
-function reversePartial(start: ListNode, end: ListNode | null, prev: ListNode|null): ListNode | null {
+function reversePartial(start: ListNode, end: ListNode | null, prev: ListNode|null): void {
     let curr: ListNode | null = end;
     let head: ListNode = start;
     let temp: ListNode;
@@ -13,7 +13,6 @@ function reversePartial(start: ListNode, end: ListNode | null, prev: ListNode|nu
     head = end ? end.next :  null;
     if(prev) 
         prev.next = curr;
-    return curr;
 }   
 
 function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
@@ -26,7 +25,7 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
     let prev: ListNode | null = null;
     let res: ListNode = start;
     let first = true;
-    
+
     while(end) {
         for(let i: number = 0; i < k; i++) {
             if(!end.next && i !== k-1) {
@@ -38,7 +37,7 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
                 first = false;
             }
         }
-        head = reversePartial(start, end, prev);
+        reversePartial(start, end, prev);
         prev = start;
         start = end;
     }
