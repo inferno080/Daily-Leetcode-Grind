@@ -1,4 +1,5 @@
 // Time: O(n), Space: O(1) - OPTIMAL
+// https://leetcode.com/problems/reverse-nodes-in-k-group/solutions/7477531/beats-100-easy-to-understand-on-time-and-jnll
 
 function reversePartial(start: ListNode, end: ListNode | null, prev: ListNode|null): void {
     let curr: ListNode | null = end;
